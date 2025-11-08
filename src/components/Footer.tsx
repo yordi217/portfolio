@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail, Send } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -23,7 +23,16 @@ const Footer = () => {
               <Mail size={20} />
             </a>
             <a
-              href="https://github.com/yordanos-sisay"
+              href="https://t.me/y21_21"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors duration-300"
+              aria-label="Telegram"
+            >
+              <Send size={20} />
+            </a>
+            <a
+              href="https://github.com/yordi217"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors duration-300"
@@ -32,7 +41,7 @@ const Footer = () => {
               <Github size={20} />
             </a>
             <a
-              href="https://linkedin.com/in/yordanos-sisay"
+              href="https://linkedin.com/in/yordiy-yo-a75942333"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors duration-300"

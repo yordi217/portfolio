@@ -1,4 +1,4 @@
-import { Mail, MapPin, Send } from "lucide-react";
+import { Mail, MapPin, Send, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 
@@ -35,6 +35,23 @@ const Contact = () => {
 
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-lg bg-primary/20 text-primary">
+                  <MessageCircle className="w-6 h-6" />
+                </div>
+                <div>
+                  <h3 className="font-semibold mb-2 text-lg">Telegram</h3>
+                  <a
+                    href="https://t.me/y21_21"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground hover:text-primary transition-colors"
+                  >
+                    @y21_21
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-lg bg-primary/20 text-primary">
                   <MapPin className="w-6 h-6" />
                 </div>
                 <div>
@@ -53,16 +70,29 @@ const Contact = () => {
               Feel free to reach out if you're looking for a developer, 
               have a question, or just want to connect.
             </p>
-            <Button
-              size="lg"
-              className="gradient-accent text-primary-foreground w-full hover:opacity-90 transition-opacity"
-              asChild
-            >
-              <a href="mailto:yordiyyo012@gmail.com">
-                <Send className="mr-2 h-5 w-5" />
-                Send Message
-              </a>
-            </Button>
+            <div className="space-y-3">
+              <Button
+                size="lg"
+                className="gradient-accent text-primary-foreground w-full hover:opacity-90 transition-opacity"
+                asChild
+              >
+                <a href="https://t.me/y21_21" target="_blank" rel="noopener noreferrer">
+                  <MessageCircle className="mr-2 h-5 w-5" />
+                  Message on Telegram
+                </a>
+              </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground w-full"
+                asChild
+              >
+                <a href="mailto:yordiyyo012@gmail.com">
+                  <Mail className="mr-2 h-5 w-5" />
+                  Send Email
+                </a>
+              </Button>
+            </div>
           </Card>
         </div>
       </div>

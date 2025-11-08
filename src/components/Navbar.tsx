@@ -43,8 +43,10 @@ const Navbar = () => {
               {link.label}
             </a>
           ))}
-          <Button className="gradient-accent text-primary-foreground">
-            Resume
+          <Button className="gradient-accent text-primary-foreground" asChild>
+            <a href="/Yordanos_Sisay_Resume.pdf" download>
+              Resume
+            </a>
           </Button>
         </div>
 
@@ -71,8 +73,10 @@ const Navbar = () => {
                 {link.label}
               </a>
             ))}
-            <Button className="gradient-accent text-primary-foreground w-full mt-2">
-              Resume
+            <Button className="gradient-accent text-primary-foreground w-full mt-2" asChild>
+              <a href="/Yordanos_Sisay_Resume.pdf" download>
+                Resume
+              </a>
             </Button>
           </div>
         </div>

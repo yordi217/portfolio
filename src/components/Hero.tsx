@@ -1,4 +1,4 @@
-import { Mail, Github, Linkedin } from "lucide-react";
+import { Mail, Github, Linkedin, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
@@ -55,7 +55,16 @@ const Hero = () => {
               <Mail size={24} />
             </a>
             <a
-              href="https://github.com/yordanos-sisay"
+              href="https://t.me/y21_21"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors duration-300"
+              aria-label="Telegram"
+            >
+              <Send size={24} />
+            </a>
+            <a
+              href="https://github.com/yordi217"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors duration-300"
@@ -64,7 +73,7 @@ const Hero = () => {
               <Github size={24} />
             </a>
             <a
-              href="https://linkedin.com/in/yordanos-sisay"
+              href="https://linkedin.com/in/yordiy-yo-a75942333"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors duration-300"
