@@ -28,11 +28,11 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors duration-300"
               aria-label="Telegram"
-            >
+z>
               <Send size={20} />
             </a>
             <a
-              href="https://github.com/yordi217"
+              href="https://www.linkedin.com/in/yordanos-sisay-a75942333"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors duration-300"
